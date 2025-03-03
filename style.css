@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(242, 209, 242);
+}
+
+.title{
+    text-align: left;
+    padding-left: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding-top: 30px;
+    color: black;
+    padding-left: 55px;
+}
+
+.container {
+    display: flex;
+    padding-left: 50px;
+    gap: 50px;
+    
+}
+
+.album{
+    border-radius: 20px;
+}
+
+.icon{
+    width: 60px;
+    height: 80px;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+}
+
+h2{
+    font-family: monospace;
+    font-size: 20px;
+    color: black;
+}
+
+h3{
+    text-align: left;
+    font-family: monospace;
+    font-size: 15px;
+    padding-left: 10px;
+    color: black;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    text-align: left;
+    color: black;
+    margin-top: 0px;
+}
+
+.song1 {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.song2 {
+    display: flex;
+    align-items: center;
+    gap: 245px;
+}
+
+.song3 {
+    display: flex;
+    align-items: center;
+    gap: 155px;
+}
+
+.song4 {
+    display: flex;
+    align-items: center;
+    gap: 190px;
+}
+
+.heart {
+    width: 20px;
+    height: 20px;
+}
+
+audio{
+    width: 340px;
+}
+
+audio::-webkit-media-controls-play-button{
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: rgb(242, 209, 242);
+}
+
+
+.rihanna_song{
+    background-color: rgba(232, 232, 232, 0.438);
+    border-radius: 10px;
+    width: 370px;
+    height: 380px;
+    padding-left: 20px;
+    padding-right: 1px;
+    padding-top: 1px;
+    height: 580px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.taylor_song{
+    background-color: rgba(232, 232, 232, 0.438);
+    border-radius: 10px;
+    width: 370px;
+    height: 380px;
+    padding-left: 20px;
+    padding-right: 1px;
+    padding-top: 1px;
+    height: 580px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.fray_song{
+    background-color: rgba(232, 232, 232, 0.438);
+    border-radius: 10px;
+    width: 370px;
+    height: 380px;
+    padding-left: 20px;
+    padding-right: 1px;
+    padding-top: 1px;
+    height: 580px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.zayn_song{
+    padding-top: 120px;
+    background-color: rgba(232, 232, 232, 0.438);
+    border-radius: 10px;
+    width: 370px;
+    height: 380px;
+    padding-left: 20px;
+    padding-right: 1px;
+    padding-top: 1px;
+    height: 580px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        gap: 20px;
+    }
+
+    .title {
+        text-align: center;
+        padding-left: 0;
+        font-size: medium;
+    }
+
+    img {
+        width: 90%;
+        height: auto;
+    }
+
+    h2, h3, p {
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .song1, .song2, .song3, .song4 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    audio {
+        width: 100%;
+    }
+
+    .heart {
+        width: 15px;
+        height: 15px;
+    }
+
+    .rihanna_song {
+        width: 90%;
+        padding: 10px;
+        height: auto;
+    }
+
+    .taylor_song {
+        width: 90%;
+        padding: 10px;
+        height: auto;
+    }
+
+    .fray_song {
+        width: 90%;
+        padding: 10px;
+        height: auto;
+    }
+
+    .zayn_song {
+        width: 90%;
+        padding: 10px;
+        height: auto;
+    }
+
+}
